@@ -16,7 +16,7 @@ quantity = str(input('Enter quantity numbers: '))
 
 with io.open('numbers_test.txt', 'w', encoding='utf-8') as f:
 	f.write('')
-
+#url panale
 url = 'http://127.1.1.0/ajax_form_handler.php'
 s = requests.Session()
 s.headers.update({
